@@ -101,7 +101,9 @@ theme: anzhiyu
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repository: git@github.com:evansrrr/anzhiyu.git
+  branch: main
 
 # APlayer
 # https://github.com/MoePlayer/hexo-tag-aplayer/blob/master/docs/README-zh_cn.md

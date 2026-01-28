@@ -1,0 +1,11 @@
+- title: 闲言碎语
+  subTitle: 我的日常
+  tips: 吐个泡泡让你知道我在想什么
+  buttonText: 关于SR
+  buttonLink: /about/
+  limit: 30
+  home_essay: true
+  top_background: /img/essay-top-bg.jpg
+  essay_list:
+    - content: 整理行装，再出发
+      date: 2026/01/27

@@ -13,6 +13,7 @@ menu:
    关于SR:
      About: /about/ || anzhiyu-icon-paper-plane
      随便写写: /essay/ || anzhiyu-icon-lightbulb
+     我的装备: /equipment/ || anzhiyu-icon-dice-d20
      Github: https://github.com/evansrrr || anzhiyu-icon-github
 
 # nav相关配置
@@ -444,7 +445,10 @@ footer:
         message: 本站使用AnZhiYu主题
       - link: https://www.cloudflare.com/
         shields: https://img.shields.io/badge/CDN-Cloudflare-orange?logo=cloudflare
-        message: 本站使用Cloudflare CDN为静态资源提供CDN加速
+        message: 本站部分使用Cloudflare CDN为静态资源提供CDN加速
+      - link: https://www.netlify.com/
+        shields: https://img.shields.io/badge/CDN-Netlify-00C7B7?logo=netlify&logoColor=white
+        message: 本站部分使用Netlify CDN为静态资源提供CDN加速
       - link: https://github.com/
         shields: https://npm.elemecdn.com/anzhiyu-blog@2.1.5/img/badge/Source-Github.svg
         message: 本站项目由Github托管
@@ -1070,8 +1074,8 @@ home_top:
     swiper_css: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css #swiper css依赖
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
-    tips: new project
-    title: Project
+    tips: currently processing on
+    title: Raziore Blog
     image: /img/banner.jpg
     link: https://ich.cc.cd/
 

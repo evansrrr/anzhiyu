@@ -1,0 +1,48 @@
+- class_name: 好物
+  description: 实物装备推荐
+  tip: 跟 SR 一起享受科技带来的乐趣
+  top_background: /img/equipment-bg.jpg
+  good_things:
+    - title: 生产力
+      description: 提升自己生产效率的硬件设备
+      equipment_list:
+        - name: Lenovo Xiaoxin Pro 16 2024
+          specification: AMD Ryzen 7 8845H 32G / 3TB
+          description: 大屏核显本，CPU性能足够强劲，内存也够大。目前外接4060Ti 16GB。缺点就是续航不够长，分量也不轻
+          image: https://img4.pconline.com.cn/pconline/images/product/20240221/18026013.jpg
+          link: https://www.bilibili.com/video/BV1Ex42127n2
+        - name: Xiaomi 14 Ultra
+          specification: 骁龙 8 Gen3 16G / 512GB
+          description: 曾经的机皇，到今天依旧抗打。裸奔一年毫发未损。续航疲软属于硬伤
+          image: https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1708570853.61112479.png
+          link: https://www.bilibili.com/video/BV1cW421K7Yd
+        - name: Huawei Watch GT 3
+          specification: 46mm
+          description: 银色不锈钢表壳，棕色真皮表带，屏幕硬度很好，续航时间长达两周。清洁有点麻烦
+          image: https://2b.zol-img.com.cn/product/221/701/cen6k4vKhJUM.jpg
+          link: https://www.bilibili.com/video/BV1Eh411b7YH
+        - name: PMO Wave 75
+          specification: 黑曜石 凯华雪青轴 黑芯FR4沉铜
+          description: 毕业铝坨坨，胜在声音手感和质感，适合打字
+          image: https://20654501.s21i.faiusr.com/2/8/ABUIABACGAAgtcrhuAYo8LPYyQIwlgY4vAY.jpg
+          link: https://www.bilibili.com/video/BV1x51XYVEHi
+        - name: PMO P75
+          specification: 元祖GT TTC赤焰银轴 开槽PC
+          description: 日常娱乐使用，很喜欢旋钮
+          image: https://img10.360buyimg.com/pcpubliccms/s1440x1440_jfs/t1/391690/22/5280/171640/6972f27dF2f64cd9d/00833203206ae947.jpg
+          link: https://www.bilibili.com/video/BV1kyyZBCEYh
+        - name: Logitech G502 Hero
+          specification: 有线版
+          description: 我喜欢重的鼠标（狗头）
+          image: https://resource.logitechg.com/w_544,h_466,ar_7:6,c_pad,q_auto,f_auto,dpr_2.0/d_transparent.gif/content/dam/gaming/en/non-braid/hyjal-g502-hero/2025/g502-hero-mouse-top-angle-gallery-1.png
+          link: https://www.bilibili.com/video/BV1AjgBzpEwi
+        - name: MChose V9 Turbo
+          specification: 
+          description: 头戴游戏耳机，自古游戏和音乐不能两全
+          image: https://www.maicong.cn/static/1767010155281_%E5%88%86%E7%B1%BB%E9%A1%B5-%E7%99%BD%E5%BA%95%E5%8D%A1%E7%89%87.jpg
+          link: https://www.bilibili.com/video/BV1Nmk7BYE9E
+        - name: HiVi M200
+          specification: 
+          description: 桌面音响，在家不打游戏就用它
+          image: https://www.hivi.com/uploads/202508/17542843236207.jpg
+          link: https://www.bilibili.com/video/BV15t421j7jw

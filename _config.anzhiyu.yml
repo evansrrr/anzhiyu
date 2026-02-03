@@ -1108,7 +1108,7 @@ LA:
 # Umami 统计配置（关于页面访问统计卡片）
 # 文档: https://umami.is/docs/api
 umami:
-  enable: true
+  enable: false
   # Umami API 地址，如 https://analytics.example.com
   apiHost: https://api.umami.is
   # 网站 ID

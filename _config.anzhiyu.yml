@@ -1108,13 +1108,13 @@ LA:
 # Umami 统计配置（关于页面访问统计卡片）
 # 文档: https://umami.is/docs/api
 umami:
-  enable: false
+  enable: true
   # Umami API 地址，如 https://analytics.example.com
-  apiHost:
+  apiHost: https://api.umami.is
   # 网站 ID
-  websiteId:
+  websiteId: 53b68da2-2695-4872-bec3-847803cdece5
   # API Token（在 Umami 后台 Settings -> API Keys 中生成）
-  token:
+  token: api_aVTCpltYkXVaU8mjOcZgPkUPpf7iAqlp
 
 # 标签卖萌
 diytitle:

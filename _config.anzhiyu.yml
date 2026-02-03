@@ -26,10 +26,10 @@ nav:
       item:
         - name: 主页
           link: https://ich.cc.cd/
-          icon: /img/favicon.ico
+          icon: https://img.ich.cc.cd/file/Raziore_Blog/favicon.ico
         - name: 博客
           link: https://ich.cc.cd/
-          icon: /img/favicon.ico
+          icon: https://img.ich.cc.cd/file/Raziore_Blog/favicon.ico
     - title: 项目
       item:
         - name: 项目1
@@ -133,11 +133,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: /img/favicon.ico
+favicon: https://img.ich.cc.cd/file/Raziore_Blog/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: /img/avatar.jpg
+  img: https://img.ich.cc.cd/file/Raziore_Blog/avatar.webp
   effect: false
 
 # Disable all banner image
@@ -790,7 +790,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: /img/avatar.jpg # 自定加载动画义头像
+  avatar: https://img.ich.cc.cd/file/Raziore_Blog/avatar.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1076,7 +1076,7 @@ home_top:
   banner:
     tips: currently processing on
     title: Raziore Blog
-    image: /img/banner.jpg
+    image: https://img.ich.cc.cd/file/Raziore_Blog/banner.webp
     link: https://ich.cc.cd/
 
 # 朋友圈配置
@@ -1101,9 +1101,9 @@ console:
 
 # 51a统计配置
 LA:
-  enable: false
-  ck:
-  LingQueMonitorID:
+  enable: true
+  ck: 3OtYChwRHUDXbiKD
+  LingQueMonitorID: 3OtYG4eNIZfD7njo
 
 # Umami 统计配置（关于页面访问统计卡片）
 # 文档: https://umami.is/docs/api

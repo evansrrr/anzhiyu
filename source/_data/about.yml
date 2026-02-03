@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 念念不忘，必有回响✨
-  avatarImg: /img/avatar.jpg
+  avatarImg: https://img.ich.cc.cd/file/Raziore_Blog/avatar.webp
   avatarSkills:
     left:
       - 🤖️ 手机我只用安卓
@@ -31,16 +31,16 @@
     list:
       - desc: 大学本科
         color: "#357ef5"
-    img: https://bu.dusays.com/2023/04/21/644287166329b.png
+    img: https://img.ich.cc.cd/file/Raziore_Blog/about-edu.webp
   statistic:
     link: /archives
     text: 归档
-    cover: https://bu.dusays.com/2023/05/01/644f4b037b930.jpg
+    cover: https://img.ich.cc.cd/file/Raziore_Blog/about-statistic.webp
   map:
     title: 现居地
     StrengthenTitle: 中国，济南市
-    background: https://img.090227.xyz/file/cd149bcf35f26633643c2.png
-    backgroundDark: https://img.090227.xyz/file/cd149bcf35f26633643c2.png
+    background: https://img.ich.cc.cd/file/Raziore_Blog/about-location.webp
+    backgroundDark: https://img.ich.cc.cd/file/Raziore_Blog/about-location.webp
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2006
@@ -66,35 +66,35 @@
     game_tips: 爱好游戏
     game_title: Forza Horizon
     game_uid: "UID: Raziore#4526"
-    game_bg: /img/about-game.jpg
+    game_bg: https://img.ich.cc.cd/file/Raziore_Blog/about-game.webp
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
       - name: 葬送的芙莉莲
         href: 
-        cover: /img/about-fulilian.jpg
+        cover: https://img.ich.cc.cd/file/Raziore_Blog/about-fulilian.webp
       - name: 电锯人
         href: 
-        cover: /img/about-dianjuren.jpg
+        cover: https://img.ich.cc.cd/file/Raziore_Blog/about-dianjuren.webp
       - name: 紫罗兰永恒花园
         href: 
-        cover: /img/about-ziluolan.jpg
+        cover: https://img.ich.cc.cd/file/Raziore_Blog/about-ziluolan.webp
       - name: 鬼灭之刃
         href: 
-        cover: /img/about-guimie.jpg
+        cover: https://img.ich.cc.cd/file/Raziore_Blog/about-guimie.webp
       - name: 新世纪福音战士
         href: 
-        cover: /img/about-eva.jpg
+        cover: https://img.ich.cc.cd/file/Raziore_Blog/about-eva.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://bu.dusays.com/2022/12/06/638f5f05ce1f7.jpg
+    like_bg: https://img.ich.cc.cd/file/Raziore_Blog/about-aihao.webp
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
     music_title: 古典、华语
-    music_bg: /img/about-music.jpg
+    music_bg: https://img.ich.cc.cd/file/Raziore_Blog/about-music.webp
     music_link: /music
   # reward_list:
     # - name: 名字

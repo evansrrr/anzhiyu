@@ -26,10 +26,10 @@ nav:
       item:
         - name: 主页
           link: https://ich.cc.cd/
-          icon: https://img.ich.cc.cd/file/Raziore_Blog/favicon.ico
+          icon: https://img.ich.cc.cd/file/ichblog/img/favicon.ico
         - name: 博客
           link: https://ich.cc.cd/
-          icon: https://img.ich.cc.cd/file/Raziore_Blog/favicon.ico
+          icon: https://img.ich.cc.cd/file/ichblog/img/favicon.ico
     - title: 项目
       item:
         - name: 项目1
@@ -133,11 +133,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: https://img.ich.cc.cd/file/Raziore_Blog/favicon.ico
+favicon: https://img.ich.cc.cd/file/ichblog/img/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://img.ich.cc.cd/file/Raziore_Blog/avatar.webp
+  img: https://img.ich.cc.cd/file/ichblog/img/avatar.webp
   effect: false
 
 # Disable all banner image
@@ -790,7 +790,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://img.ich.cc.cd/file/Raziore_Blog/avatar.webp # 自定加载动画义头像
+  avatar: https://img.ich.cc.cd/file/ichblog/img/avatar.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1076,7 +1076,7 @@ home_top:
   banner:
     tips: currently processing on
     title: Raziore Blog
-    image: https://img.ich.cc.cd/file/Raziore_Blog/banner.webp
+    image: https://img.ich.cc.cd/file/ichblog/img/banner.webp
     link: https://ich.cc.cd/
 
 # 朋友圈配置
@@ -1145,7 +1145,7 @@ nav_music:
   all_playlist: https://y.qq.com/n/ryqq/playlist/8802438608
 
 # 路径为 /music 的音乐页面默认加载的歌单 1. nav_music 2. custom
-music_page_default: nav_music
+music_page_default: custom
 
 # 评论匿名邮箱
 visitorMail:

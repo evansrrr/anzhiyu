@@ -5,7 +5,9 @@
   buttonLink: /about/
   limit: 30
   home_essay: true
-  top_background: https://img.ich.cc.cd/file/ichblog/img/essay-top-bg.webp
+  top_background: https://cdn.ich.cc.cd/img/essay-top-bg.webp
   essay_list:
     - content: 整理行装，再出发
       date: 2026/01/27
+    - content: 开学了
+      date: 2026/03/01

@@ -6,6 +6,7 @@ menu:
 
    公益服务CSR:
      音乐: /music/ || anzhiyu-icon-music
+     TV: https://tv.ich.cc.cd/ || anzhiyu-icon-bilibili
      # 追番页: /bangumis/ || anzhiyu-icon-bilibili
      # 相册集: /album/ || anzhiyu-icon-images
      # 小空调: /air-conditioner/ || anzhiyu-icon-fan
@@ -26,10 +27,10 @@ nav:
       item:
         - name: 主页
           link: https://ich.cc.cd/
-          icon: https://img.ich.cc.cd/file/ichblog/img/favicon.ico
+          icon: https://cdn.ich.cc.cd/img/favicon.ico
         - name: 博客
           link: https://ich.cc.cd/
-          icon: https://img.ich.cc.cd/file/ichblog/img/favicon.ico
+          icon: https://cdn.ich.cc.cd/img/favicon.ico
     - title: 项目
       item:
         - name: 项目1
@@ -133,11 +134,11 @@ katex:
 # --------------------------------------
 
 # Favicon（网站图标）
-favicon: https://img.ich.cc.cd/file/ichblog/img/favicon.ico
+favicon: https://cdn.ich.cc.cd/img/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://img.ich.cc.cd/file/ichblog/img/avatar.webp
+  img: https://cdn.ich.cc.cd/img/avatar.webp
   effect: false
 
 # Disable all banner image
@@ -790,7 +791,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://img.ich.cc.cd/file/ichblog/img/avatar.webp # 自定加载动画义头像
+  avatar: https://cdn.ich.cc.cd/img/avatar.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1076,7 +1077,7 @@ home_top:
   banner:
     tips: currently processing on
     title: Raziore Blog
-    image: https://img.ich.cc.cd/file/ichblog/img/banner.webp
+    image: https://cdn.ich.cc.cd/img/banner.webp
     link: https://ich.cc.cd/
 
 # 朋友圈配置

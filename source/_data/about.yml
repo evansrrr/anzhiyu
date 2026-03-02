@@ -1,6 +1,6 @@
 - class_name: 关于页
   subtitle: 念念不忘，必有回响✨
-  avatarImg: https://img.ich.cc.cd/file/ichblog/img/avatar.webp
+  avatarImg: https://cdn.ich.cc.cd/img/avatar.webp
   avatarSkills:
     left:
       - 🤖️ 手机我只用安卓
@@ -31,16 +31,16 @@
     list:
       - desc: 大学本科
         color: "#357ef5"
-    img: https://img.ich.cc.cd/file/ichblog/img/about-edu.webp
+    img: https://cdn.ich.cc.cd/img/about-edu.webp
   statistic:
     link: /archives
     text: 归档
-    cover: https://img.ich.cc.cd/file/ichblog/img/about-statistic.webp
+    cover: https://cdn.ich.cc.cd/img/about-statistic.webp
   map:
     title: 现居地
     StrengthenTitle: 中国，济南市
-    background: https://img.ich.cc.cd/file/ichblog/img/about-location.webp
-    backgroundDark: https://img.ich.cc.cd/file/ichblog/img/about-location.webp
+    background: https://cdn.ich.cc.cd/img/about-location.webp
+    backgroundDark: https://cdn.ich.cc.cd/img/about-location.webp
   selfInfo:
     selfInfoTips1: 生于
     selfInfoContentYear: 2006
@@ -66,35 +66,35 @@
     game_tips: 爱好游戏
     game_title: Forza Horizon
     game_uid: "UID: Raziore#4526"
-    game_bg: https://img.ich.cc.cd/file/ichblog/img/about-game.webp
+    game_bg: https://cdn.ich.cc.cd/img/about-game.webp
   comic:
     comic_tips: 爱好番剧
     comic_title: 追番
     comic_list:
       - name: 葬送的芙莉莲
         href: 
-        cover: https://img.ich.cc.cd/file/ichblog/img/about-fulilian.webp
+        cover: https://cdn.ich.cc.cd/img/about-fulilian.webp
       - name: 电锯人
         href: 
-        cover: https://img.ich.cc.cd/file/ichblog/img/about-ziluolan.webp
+        cover: https://cdn.ich.cc.cd/img/about-ziluolan.webp
       - name: 紫罗兰永恒花园
         href: 
-        cover: https://img.ich.cc.cd/file/ichblog/img/about-ziluolan.webp
+        cover: https://cdn.ich.cc.cd/img/about-guimie.webp
       - name: 鬼灭之刃
         href: 
-        cover: https://img.ich.cc.cd/file/ichblog/img/about-guimie.webp
+        cover: https://cdn.ich.cc.cd/img/about-guimie.webp
       - name: 新世纪福音战士
         href: 
-        cover: https://img.ich.cc.cd/file/ichblog/img/about-eva.webp
+        cover: https://cdn.ich.cc.cd/img/about-eva.webp
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://img.ich.cc.cd/file/ichblog/img/about-aihao.webp
+    like_bg: https://cdn.ich.cc.cd/img/about-aihao.webp
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好
     music_title: 古典、华语
-    music_bg: https://img.ich.cc.cd/file/ichblog/img/about-music.webp
+    music_bg: https://cdn.ich.cc.cd/img/about-music.webp
     music_link: /music
   # reward_list:
     # - name: 名字

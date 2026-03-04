@@ -1,6 +1,6 @@
 ---
 author: Raziore
-title: Fade of Light: Glitch
+title: Fade of Light：Glitch
 date: 2025-06-12T11:10:00+08:00
 draft: false
 description: My story with Glitch.

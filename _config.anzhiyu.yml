@@ -8,6 +8,8 @@ menu:
      音乐: /music/ || anzhiyu-icon-music
      TV: https://tv.ich.cc.cd/ || anzhiyu-icon-bilibili
      音乐下载: https://music-dl.ich.cc.cd/ || anzhiyu-icon-creative-commons-nd-line
+     Docker镜像: https://docker.ich.us.ci/ || anzhiyu-icon-universal-access
+     ProxyIP检查: https://pip.ich.us.ci/ || anzhiyu-icon-circle-check
      # 追番页: /bangumis/ || anzhiyu-icon-bilibili
      # 相册集: /album/ || anzhiyu-icon-images
      # 小空调: /air-conditioner/ || anzhiyu-icon-fan

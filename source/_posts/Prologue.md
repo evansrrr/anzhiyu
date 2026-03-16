@@ -4,12 +4,8 @@ title: Prologue
 date: 2025-05-17T11:10:00+08:00
 draft: false
 description: preface
-tags: [
-    "preface",
-]
-categories: [
-    "Announcement",
-]
+tags:
+    - Announcement
 ---
 
 I don't know why but I decided to write this in English. Maybe it's I can't find a better way to control my expressions in Chinese. Using English is more compatible instead. 

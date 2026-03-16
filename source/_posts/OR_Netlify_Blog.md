@@ -4,12 +4,8 @@ title: OR_Netlify_Blog
 date: 2024-03-30T00:00:00+08:00
 draft: false
 description: preface of OR_Netlify_Blog
-tags: [
-    "preface",
-]
-categories: [
-    "Announcement",
-]
+tags:
+    - Announcement
 ---
 
 # Preface

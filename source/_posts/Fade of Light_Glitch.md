@@ -4,14 +4,9 @@ title: Fade of Light：Glitch
 date: 2025-06-12T11:10:00+08:00
 draft: false
 description: My story with Glitch.
-tags: [
-    "Website",
-    "Glitch",
-]
-categories: [
-    "Tech",
-    "Life",
-]
+tags:
+    - Website
+    - Glitch
 ---
 
 Last night I saw an announcement on Glitch, it says they're going to stop providing self-hosting services from Jul, 8. This could be really an important one, although I'm not a dev hosing all my apps on Glitch. What could this mean? For me, I don't think it's just a lost choice for Dev-Ops who are seeking for a free, easy-to-go hosing solution. It's kind of ,departure of a friend.

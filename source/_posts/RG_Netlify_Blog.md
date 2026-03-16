@@ -4,12 +4,8 @@ title: RG_Netlify_Blog
 date: 2024-10-14T00:00:00+08:00
 draft: false
 description: preface of RG_Netlify_Blog
-tags: [
-    "preface",
-]
-categories: [
-    "Announcement",
-]
+tags:
+    - Announcement
 ---
 
 Few bloggers like me would write a prologue for their posts. Even fewer visitors would read of cause. However, my intrinsic tells me that a proper summary or preface is needed, to save my perplexed thoughts.

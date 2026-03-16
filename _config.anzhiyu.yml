@@ -1062,8 +1062,8 @@ home_top:
       shadow: var(--anzhiyu-shadow-blue)
       class: blue
       icon: anzhiyu-icon-dove
-    - name: Github
-      path: /categories/Github/
+    - name: 项目
+      path: /categories/Project/
       shadow: var(--anzhiyu-shadow-red)
       class: red
       icon: anzhiyu-icon-fire

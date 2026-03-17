@@ -3,7 +3,6 @@ author: Raziore
 title: Wifi钓鱼攻击模拟
 date: 2026-03-16T23:16:00+08:00
 description: 我没干那事。。
-draft: true
 tags:
   - Security
   - Net
@@ -29,4 +28,4 @@ categories: Project
 
 如果报错dhcp没有足够的ip池，结束并重启脚本再试。成功启动后，终端里就会出现包含username和password的请求片段了。
 
-详解：
+附上示例文件[Github源码](https://github.com/evansrrr/Wifi-Portal)

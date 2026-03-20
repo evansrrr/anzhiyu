@@ -14,17 +14,21 @@ categories: Project
 
 首先需要一个前端页，做成什么样无所谓，我们只需要用户名和密码两个输入框。
 
-先把要post的表单action地址改为"你指定的服务器ip/login" ，把登录表单id改成loginForm，把用户名和密码元素的id分别改为username和password。登录按钮改成button，避免其他js干扰。
+先把要post的表单action地址改为 `你指定的服务器ip/login` ，把登录表单id改成 `loginForm` ，把用户名和密码元素的id分别改为 `username` 和 `password` 。登录按钮改成 `button` ，避免其他js干扰。
 
-如果要指定服务器ip或dhcp网段，可以在文件中修改"_" 字段，wifi名称修改"_" 。
+如果要指定服务器ip或dhcp网段，可以在文件中修改 `HOST_IP` 字段，wifi名称修改 `WIFI_NAME` 。
 
-先确认网卡支持监听模式：iw dev，假设无线网卡是wlan0（如果不是，需要在文件中修改）。
+修改 `HOST_IP` 需要一并修改 `dhcp-range` ，例如 `10.0.0.1` ，那么这里就写 `10.0.0.100,10.0.0.200,12h` ，具体范围也可以调。
 
-把wifi_portal.py和index.html放在同一目录下，如果登录页使用了外部静态资源，还需要在脚本中更改路径名。
+先确认网卡支持监听模式： `iw dev` ，假设无线网卡是wlan0（如果不是，需要在文件中修改）。
+
+把wifi_portal.py和index.html放在同一目录下，如果登录页使用了外部静态资源，还需要在脚本中更改路径名 `assets` （有两个）。
 
 另外需要特别注意的一点是字符编码格式，由于linux一般不会自动判断html的编码格式，如果html声明的编码不正确或linux自身不支持，网页内容就会乱码，建议使用支持比较广泛的utf-8格式。路径和文件名也尽量不要出现中文字符。
 
-我使用的kali linux已经包含了大部分组件，只需要再安装两个依赖：pip install flask colorama，最后sudo python3 wifi_portal.py启动服务。
+我使用的kali linux已经包含了大部分组件，只需要再安装两个依赖： `pip install flask colorama` ，最后 `sudo python3 wifi_portal.py` 启动服务。
+
+注：为什么不建议使用Ubuntu或Fedora，因为各种防火墙和限制网卡，如果非要用可以自行GPT。另外使用虚拟机kali必须要支持监听模式的USB网卡，否则无法实现监听。
 
 如果报错dhcp没有足够的ip池，结束并重启脚本再试。成功启动后，终端里就会出现包含username和password的请求片段了。
 

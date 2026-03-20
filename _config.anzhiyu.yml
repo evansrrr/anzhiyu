@@ -7,18 +7,18 @@ menu:
    公益服务CSR:
      音乐: https://music.ich.cc.cd/ || anzhiyu-icon-music
      TV: https://tv.ich.cc.cd/ || anzhiyu-icon-bilibili
+     图床: https://imgs.ich.cc.cd/ || anzhiyu-icon-images
      音乐下载: https://music-dl.ich.cc.cd/ || anzhiyu-icon-creative-commons-nd-line
      Docker镜像: https://docker.ich.us.ci/ || anzhiyu-icon-universal-access
      ProxyIP检查: https://pip.ich.us.ci/ || anzhiyu-icon-circle-check
      # 追番页: /bangumis/ || anzhiyu-icon-bilibili
-     图床: https://imgs.ich.cc.cd/ || anzhiyu-icon-images
      # 小空调: /air-conditioner/ || anzhiyu-icon-fan
 
    关于SR:
      About: /about/ || anzhiyu-icon-paper-plane
      随便写写: /essay/ || anzhiyu-icon-lightbulb
      我的装备: /equipment/ || anzhiyu-icon-dice-d20
-     Github: https://github.com/evansrrr || anzhiyu-icon-github
+     Github: https://github.com/evansrrr/ || anzhiyu-icon-github
 
 # nav相关配置
 nav:

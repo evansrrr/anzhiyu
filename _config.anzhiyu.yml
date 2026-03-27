@@ -1085,9 +1085,9 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: currently processing on
-    title: Raziore Blog
+    title: CERNET2 ipv6
     image: https://cdn.ich.cc.cd/img/banner.webp
-    link: https://ich.cc.cd/
+    link: https://ich.cc.cd/2026/03/28/北科原生v6免流/
 
 # 朋友圈配置
 friends_vue:

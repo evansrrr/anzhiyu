@@ -156,14 +156,14 @@ default_top_img: false
 cover:
   # display the cover or not (是否显示文章封面)
   index_enable: true
-  aside_enable: true
+  aside_enable: false
   archives_enable: true
   # the position of cover in home page (封面显示的位置)
   # left/right/both
   position: left
   # When cover is not set, the default cover is displayed (当没有设置cover时，默认的封面显示)
   default_cover:
-    # - /img/default_cover.jpg
+    - https://npm.elemecdn.com/anzhiyu-blog@1.1.6/img/post/banner/%E6%97%A9%E6%9F%9A.webp
 
 # Replace Broken Images (替换无法显示的图片)
 error_img:

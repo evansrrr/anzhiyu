@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "71cc996376f0bef7",
@@ -183,8 +183,8 @@
   "active": "e067927577dd3c2e",
   "lastOpenFiles": [
     "北科原生v6免流.md",
-    "安卓安装系统风控软件.md",
     "记-北科原生v6免流.md",
+    "安卓安装系统风控软件.md",
     "Wifi钓鱼攻击模拟.md",
     "伤痛、彷徨和离别.md",
     "Warp回归.md",

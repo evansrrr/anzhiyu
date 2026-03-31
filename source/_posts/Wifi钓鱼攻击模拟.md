@@ -3,14 +3,15 @@ author: Raziore
 title: Wifi钓鱼攻击模拟
 date: 2026-03-16T23:16:00+08:00
 description: 我没干那事。。
+top_img: https://img.ich.cc.cd/file/ichblog/post_img/cover/Wifi钓鱼攻击模拟.webp
+cover: https://img.ich.cc.cd/file/ichblog/post_img/cover/Wifi钓鱼攻击模拟.webp
 tags:
   - Security
   - Net
   - Tech
 categories: Project
 ---
-
-免责声明：仅供学习网络安全使用，请勿在未经明确授权的情况下于公共网络空间进行测试。因使用本材料而导致的任何法律后果或其他损失，作者概不负责。
+>免责声明：仅供学习网络安全使用，请勿在未经明确授权的情况下于公共网络空间进行测试。因使用本材料而导致的任何法律后果或其他损失，作者概不负责。
 
 首先需要一个前端页，做成什么样无所谓，我们只需要用户名和密码两个输入框。
 

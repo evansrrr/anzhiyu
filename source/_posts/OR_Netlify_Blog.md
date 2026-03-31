@@ -7,7 +7,6 @@ description: preface of OR_Netlify_Blog
 tags:
     - Announcement
 ---
-
 # Preface
 
 [![raziore's GitHub stats](https://github-readme-stats.vercel.app/api?username=raziore)](https://github.com/anuraghazra/github-readme-stats)

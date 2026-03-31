@@ -8,7 +8,6 @@ tags:
     - Website
     - Glitch
 ---
-
 Last night I saw an announcement on Glitch, it says they're going to stop providing self-hosting services from Jul, 8. This could be really an important one, although I'm not a dev hosing all my apps on Glitch. What could this mean? For me, I don't think it's just a lost choice for Dev-Ops who are seeking for a free, easy-to-go hosing solution. It's kind of ,departure of a friend.
 
 In 2019, I started my first journey on web. One of my junior school teacher told me he built a translating app using web API. And he opened developer tool in browser. And so, I met Glitch in Edge developer tool. When I opened it excitedly, I saw Glitch. Then I had my first remixed project. And by the way, I knew Github then because the login page has an option to login "using Github". But sadly, I lost that Github account because I couldn't pass the 2FA after I reinstalled Windows which kept my 2FA keys before.

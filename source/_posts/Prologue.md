@@ -7,7 +7,6 @@ description: preface
 tags:
     - Announcement
 ---
-
 I don't know why but I decided to write this in English. Maybe it's I can't find a better way to control my expressions in Chinese. Using English is more compatible instead. 
 
 OK, so this isn't a specific thread. It's more likely to be a casual journal. To remember, I actually haven't written any post since I complete these one or two blog website. Maybe because my mood. Sometimes men are used to under mood's control. So finally I decided to begin, it's already May(oh god), and I have lots of thing to share. I believe I will be excited to share, cause I'm that kind of person.

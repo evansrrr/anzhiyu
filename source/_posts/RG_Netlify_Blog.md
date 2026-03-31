@@ -7,7 +7,6 @@ description: preface of RG_Netlify_Blog
 tags:
     - Announcement
 ---
-
 Few bloggers like me would write a prologue for their posts. Even fewer visitors would read of cause. However, my intrinsic tells me that a proper summary or preface is needed, to save my perplexed thoughts.
 
 I would like to introduce my opinions and purposes. To write a blog is to record something. Maybe thoughts, experiences, memories, or attitudes. Whatever these are, they aim not only at the readers, but also the writers. As I’m yet confused about my values

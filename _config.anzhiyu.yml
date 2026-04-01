@@ -141,7 +141,7 @@ favicon: https://cdn.ich.cc.cd/img/favicon.ico
 
 # Avatar (头像)
 avatar:
-  img: https://cdn.ich.cc.cd/img/avatar.webp
+  img: https://img.ich.cc.cd/file/ichblog/img/avatar.webp
   effect: false
 
 # Disable all banner image
@@ -800,7 +800,7 @@ preloader:
   source: 3
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
-  avatar: https://cdn.ich.cc.cd/img/avatar.webp # 自定加载动画义头像
+  avatar: https://img.ich.cc.cd/file/ichblog/img/avatar.webp # 自定加载动画义头像
 
 # aside (侧边栏)
 # --------------------------------------
@@ -1086,7 +1086,7 @@ home_top:
   banner:
     tips: currently processing on
     title: CERNET2 ipv6
-    image: https://cdn.ich.cc.cd/img/banner.webp
+    image: https://img.ich.cc.cd/file/ichblog/img/banner.webp
     link: https://ich.cc.cd/2026/03/28/北科原生v6免流/
 
 # 朋友圈配置

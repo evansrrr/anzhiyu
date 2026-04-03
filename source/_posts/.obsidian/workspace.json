@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "北科原生v6免流.md",
+                "file": "Cloudflare代理速成.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "北科原生v6免流"
+              "title": "Cloudflare代理速成"
             }
           }
         ]
@@ -182,10 +182,10 @@
   },
   "active": "dbf26290ac2b4620",
   "lastOpenFiles": [
+    "记-北科原生v6免流（进阶）.md",
+    "北科原生v6免流.md",
     "英伟达免费api，及“龙虾还是聋瞎”.md",
     "Cloudflare代理速成.md",
-    "记-北科原生v6免流.md",
-    "北科原生v6免流.md",
     "教育网Cloudflare V6免流.md",
     "可托管Cloudflare的免费域名.md",
     "最后的假期.md",

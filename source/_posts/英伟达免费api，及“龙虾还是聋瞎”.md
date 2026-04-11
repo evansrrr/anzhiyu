@@ -3,8 +3,8 @@ author: Raziore
 title: 英伟达免费api，及“龙虾还是聋瞎”
 date: 2026-04-2T16:46:00+08:00
 description: 还是临时edu邮箱好用
-top_img: https://img.ich.cc.cd/file/ichblog/post_img/cover/Cloudflare代理速成.webp
-cover: https://img.ich.cc.cd/file/ichblog/post_img/cover/Cloudflare代理速成.webp
+top_img: https://img.ich.cc.cd/file/ichblog/post_img/cover/132471149_p0.webp
+cover: https://img.ich.cc.cd/file/ichblog/post_img/cover/132471149_p0.webp
 tags:
   - AI
   - api

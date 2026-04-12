@@ -541,15 +541,15 @@ footer:
         text: 主题
       # - link: https://image.anheyu.com
       #   text: 图床
-      # - link: https://beian.miit.gov.cn/
-      #   text: 湘ICP备-xxxxxxx号
+      - link: https://icp.gov.moe/?keyword=20235201
+        text: 萌ICP备20235201号
     subTitle:
-      enable: false
+      enable: true
       # Typewriter Effect (打字效果)
       effect: true
       # Effect Speed Options (打字效果速度参数)
       startDelay: 300 # time before typing starts in milliseconds
-      typeSpeed: 150 # type speed in milliseconds
+      typeSpeed: 120 # type speed in milliseconds
       backSpeed: 50 # backspacing speed in milliseconds
       # loop (循环打字)
       loop: true
@@ -562,7 +562,7 @@ footer:
       source: 1
       # 如果关闭打字效果，subtitle 只会显示 sub 的第一行文字
       sub:
-        # - 生活明朗&#44; 万物可爱&#44; 人间值得&#44; 未来可期.
+        # - 念念不忘&#44; 必有回响&#44.
 
 # Analysis
 # --------------------------------------
@@ -1085,7 +1085,7 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: currently processing on
-    title: CERNET2 ipv6
+    title: CF Proxy (ipv6)
     image: https://img.ich.cc.cd/file/ichblog/img/banner.webp
     link: https://ich.cc.cd/2026/03/28/北科原生v6免流/
 

@@ -16,6 +16,7 @@ categories: Proxy
 
 [@ernst_loosen_bot](https://t.me/ernst_loosen_bot)通过此bot加入，欢迎来玩喵~
 
+---
 
 >免责声明：《中华人民共和国计算机信息网络国际联网管理暂行规定》第六条规定：“计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。任何组织和个人不得自行建立或者使用其他信道进行国际联网。”，第十四条：“违反本规定第六条、第八条和第十条的规定的，由公安机关责令停止联网，给予警告，可以并处15000元以下的罚款；有违法所得的，没收违法所得。”根据法律规定，请勿向他人售卖、传播vpn，否则可能构成违法行为，受到行政处罚并记录。本文既不提倡“翻墙”行为，也不提供工具和源码，仅供讨论、学习网络技术，严禁用于任何形式的非法网络访问，因技术滥用导致的一切后果由使用者自行承担。另Cloudflare服务存在明确的[使用条款限制](https://www.cloudflare.com/zh-cn/terms/)，使用者应自行斟酌。
 
@@ -23,6 +24,7 @@ categories: Proxy
 
 经过几年的技术沉淀，Cloudflare代理已经变得相对成熟，甚至一定程度上比普通机场和自建代理表现更好。本文选取几个常见的项目逐一介绍，速成并不能面面俱到，原理及进阶使用方式另开一篇。每个项目的README也有详尽的介绍。另外由于Cloudflare网站界面经常更新变动（没错我刚写完一周cf又改新界面了），本文倾向使用文字描述而不提供图片指示，我用的英文版懒得改了，有什么翻译问题不要在意。
 
+---
 ## 准备及说明
 
 如果你懒得做任何准备，请仅确保有一个[Cloudflare](https://dash.cloudflare.com/login)账户和Clash或v2rayN类的客户端。
@@ -50,6 +52,7 @@ categories: Proxy
 
 （排序即推荐顺序）
 
+---
 ## 一、甬哥侃侃侃
 
 >YouTube：[@ygkkk](https://www.youtube.com/@ygkkk)
@@ -63,6 +66,7 @@ categories: Proxy
 
 如果你有域名，可以进行接下来的配置。进入你的项目的设置，在域和路由禁用分配的workers.dev域名。点击添加 -> 自定义域名，给你的项目分配一个二级域名（需要填写完整域名）。添加好以后可以通过`自定义域名/uuid`进入订阅页面。这样订阅更新时就不需要通过代理了，并且可以使用TLS加密节点。
 
+---
 ## 二、Joey blog
 
 >YouTube：[@joeyblog](https://www.youtube.com/@joeyblog)
@@ -80,6 +84,7 @@ Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.
 
 同样推荐启用自定义域名。
 
+---
 ## 三、CM
 
 >Youtube：[@CMLiussss](https://www.youtube.com/@CMLiussss)
@@ -99,12 +104,14 @@ Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.
 
 访问`你的域名/admin`输入管理员密码即可登录后台。
 
+---
 ## 四、BPB
 
 经典项目，地址：[Github: bia-pain-bache/BPB-Worker-Panel](https://github.com/bia-pain-bache/BPB-Worker-Panel)
 
 不推荐新手使用，有兴趣可以折腾。
 
+---
 ## 五、佬王
 
 >YouTube：[@eooce](https://www.youtube.com/@eooce)
@@ -114,6 +121,7 @@ Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.
 
 多种选择，不详细介绍了，看README即可。内置Proxy IP多半失效。相比之下有些简陋和鸡肋。
 
+---
 ## 五、白嫖Snippets
 
 项目地址：[Github: cmliu/CF-Workers-BPSUB](https://github.com/cmliu/CF-Workers-BPSUB)
@@ -127,6 +135,7 @@ Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.
 
 节点高级设置勾选跳过证书验证。订阅链接导入软件即可使用。
 
+---
 ## 测速及ip、ping测试
 
 **测速**：[Google Fiber](https://fiber.google.com/speedtest)、[Cloudflare](https://speed.cloudflare.com)、[Speedtest.cn](https://speedtest.cn)、[Fast.com](https://fast.com)
@@ -137,6 +146,7 @@ Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.
 
 尽量少测速，这样会给proxyip服务器带来较大的cpu载荷，影响线路质量。更常见的测试方法是Youtube 4k视频。跳ip是正常现象，有些AI需要非香港地区ip，请尝试切换订阅。可指定国家ip的方法将在四月底前更新在Cloudflare代理进阶，敬请期待！
 
+---
 ## 结语
 
 本文仅提供了最最基本的信息，很多奇妙小技巧另开篇目，未详尽之处恳请指出。下一篇：Cloudflare代理进阶

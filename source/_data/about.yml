@@ -59,9 +59,9 @@
     maxim_top: 念念不忘，
     maxim_bottom: 必有回响。
   buff:
-    buff_tips: 特长
-    buff_top: 脑回路新奇的 酸菜鱼
-    buff_bottom: 二次元指数 MAX
+    buff_tips: TG群
+    buff_top: 通过此bot加入：
+    buff_bottom: "@ernst_loosen_bot"
   game:
     game_tips: 爱好游戏
     game_title: Forza Horizon

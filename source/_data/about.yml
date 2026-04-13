@@ -29,7 +29,7 @@
     tips: 生涯
     title: 无限进步
     list:
-      - desc: 大学本科
+      - desc: 本科
         color: "#357ef5"
     img: https://cdn.ich.cc.cd/img/about-edu.webp
   statistic:
@@ -42,16 +42,16 @@
     background: https://cdn.ich.cc.cd/img/about-location.webp
     backgroundDark: https://cdn.ich.cc.cd/img/about-location.webp
   selfInfo:
-    selfInfoTips1: 生于
-    selfInfoContentYear: 2006
-    selfInfoTips2: 家里蹲大学
-    selfInfoContent2: 床上躺专业
-    selfInfoTips3: 现在职业
-    selfInfoContent3: 社畜🤓☝️
+    selfInfoTips1: 机子
+    selfInfoContentYear: HyperOS 3
+    selfInfoTips2: 主力
+    selfInfoContent2: Win 11
+    selfInfoTips3: 最喜欢的Linux
+    selfInfoContent3: Fedora 43
   personalities:
     author_name: 逻辑学家
     personality_type: INTP-T
-    photo_url: https://github-readme-stats.vercel.app/api?username=evansrrr&show_icons=true&theme=transparent&hide_border=true # /img/about-photo.jpg
+    photo_url: https://t.alcy.cc/ycy # /img/about-photo.jpg
     personality_img: https://www.16personalities.com/static/images/personality-types/avatars/faces/main-intp-male.svg
     name_url: https://www.16personalities.com/ch/intp-%E4%BA%BA%E6%A0%BC
   maxim:
@@ -89,7 +89,7 @@
   like:
     like_tips: 关注偏好
     like_title: 数码科技
-    like_bg: https://cdn.ich.cc.cd/img/about-aihao.webp
+    like_bg: https://t.alcy.cc/fj
     like_bottom: 手机、电脑软硬件
   music:
     music_tips: 音乐偏好

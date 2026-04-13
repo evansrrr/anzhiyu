@@ -22,6 +22,8 @@ tags:
 - [L53](https://customer.l53.net/)
 - [I8](https://nic.i8.al/order?product=1)
 
+>⚠️ us.ci 目前已被墙
+>
 #### IP6.ARPA域名：
 
 - [Hurricane Electric Free IPv6 Tunnel Broker](https://tunnelbroker.net/login.php)

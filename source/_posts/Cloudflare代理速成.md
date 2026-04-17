@@ -14,7 +14,7 @@ categories: Proxy
 ---
 ## TG群组
 
-[@ernst_loosen_bot](https://t.me/ernst_loosen_bot)通过此bot加入，欢迎来玩喵~
+[**@ernst_loosen_bot**](https://t.me/ernst_loosen_bot)通过此bot加入，欢迎来玩喵~
 
 ---
 
@@ -31,7 +31,7 @@ categories: Proxy
 
 对于更全面的配置，需要[Cloudflare](https://dash.cloudflare.com/login)账户、[GitHub](https://github.com/)账户、托管在Cloudflare的域名和客户端。
 
-⚠️ 对于你托管在cf且要使用的域名，进入Cloudflare该域名设置 -> 网络，把**gRPC**打开。同时推荐禁用默认分配的域名，防止他人扫描消耗请求额度等。
+⚠️ 推荐禁用默认分配的域名，防止他人扫描消耗请求额度等。
 
 客户端推荐：
 
@@ -50,7 +50,7 @@ categories: Proxy
 
 ⚠️ Cloudflare Workers & Pages每日限量10w请求数，但基本上用不完，而且有人用完之后还可以使用。理论上Cloudflare代理拥有无限流量，并且极难死绝。切记切记不要使用未经混淆的包含代理功能的JS源码部署项目，否则Cloudflare账户基本可以扔了。
 
-（排序即推荐顺序）
+（排序针对小白推荐顺序）
 
 ---
 ## 一、甬哥侃侃侃
@@ -78,7 +78,7 @@ categories: Proxy
 
 Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.zip`。Cloudflare仪表板找到**计算 -> Workers & Pages -> 创建应用**，在页面下方找到`Looking to deploy Pages? Get started`这行小字，点开链接，选择拖入你的文件，为项目取一个名字或保持默认，下一步上传刚刚下载的文件，不需要解压。等待部署完成后点击继续处理项目，进入项目页面，转到设置 -> 变量和机密 -> 添加。变量名称填`u`（注意大小写），值填一个随机生成的uuid，都不要有空格或换行。点击部署。在Cloudflare仪表板找到**存储和数据库 -> Workers KV -> 创建实例**，随便取个名字即可。创建好后返回你的项目设置，找到绑定，添加KV命名空间，变量名称填写大写`C`，然后选择刚刚创建的KV，保存。点击右上角创建部署，再上传一遍刚刚的文件，保存并部署。完成后可通过`项目域名/uuid`访问订阅页面。
 
->⚠️ Cloudflare更新js运行时后，现在部署需要在项目设置里把运行时兼容日期改成**2026-01-20**。
+>⚠️ **Cloudflare更新js运行时后，现在部署需要在项目设置里把运行时兼容日期改成2026-01-20。目前最新版v2ray需使用不带h2的alpn。**
 
 配置方面建议启用Vless和Trojan协议，并启用ECH，保存协议配置。如果不想使用非TLS节点，可以往下拉，找到TLS控制，选择仅TLS节点，保存高级配置（建议启用仅TLS）。然后可以在最上方选择客户端处按需导入订阅。
 
@@ -149,4 +149,4 @@ Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.
 ---
 ## 结语
 
-本文仅提供了最最基本的信息，很多奇妙小技巧另开篇目，未详尽之处恳请指出。下一篇：Cloudflare代理进阶
+本文仅提供了最最最基本的信息，原理和很多奇妙小技巧另开篇目，不合理处恳请指出。下一篇：[Cloudflare代理进阶](https://ich.cc.cd/2026/04/12/cloudflare%E4%BB%A3%E7%90%86%E8%BF%9B%E9%98%B6/)

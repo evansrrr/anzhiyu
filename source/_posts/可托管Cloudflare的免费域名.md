@@ -22,8 +22,9 @@ tags:
 - [L53](https://customer.l53.net/)
 - [I8](https://nic.i8.al/order?product=1)
 
->⚠️ us.ci 目前已被墙
->
+>⚠️ us.ci 目前已被 Cloudflare 移除
+
+更多详细情况介绍可以看这一篇：[最新免费域名资源汇总 | 周润发博客](https://blog.zrf.me/p/Free-Domains/)
 #### IP6.ARPA域名：
 
 - [Hurricane Electric Free IPv6 Tunnel Broker](https://tunnelbroker.net/login.php)
@@ -35,4 +36,4 @@ tags:
 
 - [子域名分配器](https://domain.ich.cc.cd/)
 
-我把我托管在Cloudflare的几个域名拿出来，你可以绑定在你自己的Worker或者Pages上面（CNAME记录），除了邮箱验证码不需要任何额外的信息，目前只开放了 @xs.ustb.edu.cn 邮箱后缀注册使用。加tg群在此[@ernst_loosen_bot](https://t.me/ernst_loosen_bot)，欢迎来玩，也欢迎来申请开放其他高校学生邮箱后缀注册使用。
+我把我托管在Cloudflare的几个域名拿出来，你可以绑定在你自己的 **Worker** 上面（CNAME记录），除了邮箱验证码不需要任何额外的信息，目前只开放了 `@xs.ustb.edu.cn`、`@intl.zju.edu.cn`（outlook可能屏蔽了发件商）邮箱后缀注册使用。加tg群在此[**@ernst_loosen_bot**](https://t.me/ernst_loosen_bot)，欢迎来玩，也欢迎来申请开放其他高校学生邮箱后缀注册使用。

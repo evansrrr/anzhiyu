@@ -21,6 +21,8 @@ categories:
 
 来点人啊。。。
 
+[Discord服务器](https://discord.gg/vNfM9ezTdE) 加discord群也行
+
 ## 优选 IP
 
 - **yxip.nmmd.cc.cd**  |  部分表现优秀的 CF 优选域名
@@ -34,11 +36,11 @@ categories:
 
 - **pyip.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/pyip.nmmd.cc.cd) 全球范围，源 IP 来自各知名大佬维护的 proxyip 域名，每 3 小时自动更新一次，去重测试后最多保留 50 个有效 proxyip
 - **pyip-2.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/pyip-2.nmmd.cc.cd) 欧洲地区，备用，源 IP 来自 bpb 项目维护的 proxyip 域名，每 12 小时自动更新一次，最多保留 100 个 proxyip
-- **hk.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/hk.nmmd.cc.cd) 区域: 🇭🇰 中国香港，25个，维护频率: UTC+8 13:00
-- **us.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/us.nmmd.cc.cd) 区域: 🇺🇸 美国，25个，维护频率: UTC+8 13:00
-- **sg.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/sg.nmmd.cc.cd) 区域: 🇸🇬 新加坡，25个，维护频率: UTC+8 13:00
-- **jp.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/jp.nmmd.cc.cd) 区域: 🇯🇵 日本，25个，维护频率: UTC+8 13:00
-- **de.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/de.nmmd.cc.cd) 区域: 🇩🇪 德国，10个，维护频率: UTC+8 13:00
+- **hk.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/hk.nmmd.cc.cd) 区域: 🇭🇰 中国香港，上限150个，维护频率: UTC+8 13:00
+- **us.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/us.nmmd.cc.cd) 区域: 🇺🇸 美国，上限150个，维护频率: UTC+8 13:00
+- **sg.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/sg.nmmd.cc.cd) 区域: 🇸🇬 新加坡，上限150个，维护频率: UTC+8 13:00
+- **jp.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/jp.nmmd.cc.cd) 区域: 🇯🇵 日本，上限150个，维护频率: UTC+8 13:00
+- **de.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/de.nmmd.cc.cd) 区域: 🇩🇪 德国，上限150个，维护频率: UTC+8 13:00
 - [更全地区优选 proxyip](https://github.com/evansrrr/proxyip-list/tree/main/data)，维护频率: UTC+8 13:00
 - **hk-pure.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/hk-pure.nmmd.cc.cd) 区域: 🇭🇰 中国香港，纯净IP，维护频率: UTC+8 13:00
 - **nat64.nmmd.cc.cd**  |  不支持检测ipv6 区域: 美 英 荷，19个，NAT64，维护频率: 手动

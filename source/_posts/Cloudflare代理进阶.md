@@ -16,6 +16,8 @@ categories: Proxy
 
 *这次真的是最后一篇干货了* ，如果你不知道我在说什么没关系，**欢迎来tg群玩：[@ernst_loosen_bot](https://t.me/ernst_loosen_bot)**
 
+[Discord服务器](https://discord.gg/vNfM9ezTdE) 加discord群
+
 ---
 ## Zero Trust
 

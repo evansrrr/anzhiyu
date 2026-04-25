@@ -121,7 +121,7 @@ Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.
 
 项目地址：[Github: eooce/Cloudflare-proxy](https://github.com/eooce/Cloudflare-proxy)
 
-多种选择，不详细介绍了，看README即可。内置Proxy IP多半失效。相比之下有些简陋和鸡肋。
+多种选择，不详细介绍了，看README即可。相比之下有些简陋和鸡肋。
 
 ---
 ## 五、白嫖Snippets
@@ -146,7 +146,7 @@ Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.
 
 **Ping/TCPing**：[vps789](https://vps789.com)、[itdog](https://www.itdog.cn)
 
-尽量少测速，这样会给proxyip服务器带来较大的cpu载荷，影响线路质量。更常见的测试方法是Youtube 4k视频。跳ip是正常现象，有些AI需要非香港地区ip，请尝试切换订阅。可指定国家ip的方法将在四月底前更新在Cloudflare代理进阶，敬请期待！
+**尽量少测速**，这样会给proxyip服务器带来较大的cpu载荷，影响线路质量。更常见的测试方法是Youtube 4k视频。跳ip是正常现象，有些AI需要非香港地区ip，请尝试切换订阅。可指定国家ip的方法将在四月底前更新在Cloudflare代理进阶，敬请期待！
 
 ---
 ## 结语

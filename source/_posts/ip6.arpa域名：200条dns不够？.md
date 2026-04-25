@@ -1,6 +1,6 @@
 ---
 author: Raziore
-title: ip6.arpa域名
+title: ip6.arpa域名：200条dns不够？
 date: 2026-04-22T00:03:00+08:00
 description: 羊毛薅炸
 top_img: https://img.ich.cc.cd/file/ichblog/post_img/cover/143019582_p0.webp

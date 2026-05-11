@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "校园网免流方法整理.md",
+                "file": "mianliu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "校园网免流方法整理"
+              "title": "mianliu"
             }
           }
         ]
@@ -183,7 +183,7 @@
   "active": "cbab68174cd695e7",
   "lastOpenFiles": [
     "北科原生v6免流.md",
-    "校园网免流方法整理.md",
+    "mianliu.md",
     "ip6.arpa域名：200条dns不够？.md",
     "优选域名监测.md",
     "Cloudflare代理进阶.md",

@@ -15,7 +15,7 @@ tags:
 categories:
   - Project
 ---
-写了这么多关于校园网免流的文章，一直没有整理到一起，讲讲它们的优缺点。介绍具体方法的文章链接我贴在对应位置了。推荐开源流量监测软件[Sniffnet](https://sniffnet.net/)。只提供 Windows10/11 解决方法，本人纯穷鬼没有水果设备，所以不讨论。Linux 也不讨论（你都玩linux了肯定能解决）
+写了这么多关于校园网免流的文章，一直没有整理到一起，讲讲它们的优缺点。介绍具体方法的文章链接我贴在对应位置了。推荐开源流量监测软件[Sniffnet](https://sniffnet.net/)。只提供 Windows10/11 解决方法，本人纯穷鬼没有水果设备，所以不讨论。Linux 也不讨论（你都玩linux了肯定能解决），安卓目前没有解决办法
 
 再次热情邀请：[tg群](https://t.me/ernst_loosen_bot) [discord群](https://discord.gg/vNfM9ezTdE)（如果你没有tg账号），有很多资源（确信
 
@@ -24,11 +24,17 @@ categories:
 ---
 ## 一、Warp / Zero Trust
 
-Cloudflare 公司提供的保护网络隐私和安全性的服务，针对个人 50 个席位的**免费**额度，**不限流量**，可以下载 Steam 和 Wegame 游戏。只需要一个 Cloudflare 账号，注册也很容易；开通 Zero Trust 时要求提供信用卡，这一步点取消即可跳过。推荐使用 Zero Trust，并切换 Masque 协议。需要禁用 v4。
+Cloudflare 公司提供的保护网络隐私和安全性的服务，针对个人 50 个席位（Zero Trust）的**免费**额度，**不限流量**，可以下载 Steam 和 Wegame 游戏。
+
+**推荐使用 Warp：不需要任何账户或卡，下载 Warp 软件即可使用。**
+
+**有外币信用卡可以用 Zero Trust**：只需要一个 Cloudflare 账号，注册很容易；开通 Zero Trust 时要求提供信用卡，~~这一步点取消即可跳过。~~ 务必使用真实的、有余额的外币信用卡，会进行一笔预支付验证（好像是1刀），稍后会退回。但 Zero Trust 有时候连不上。
+
+注意不论哪种模式都**需要禁用 v4**。
 
 **优点**：完全免费，不限流量，速度很快，延迟也不错，甚至可以打三角洲（但不建议）
 
-**缺点**：有时连不上，过一会就好了
+**缺点**：无
 
 [教育网Cloudflare V6免流 | Raziore Blog](https://ich.cc.cd/2026/03/30/%E6%95%99%E8%82%B2%E7%BD%91cloudflare%20v6%E5%85%8D%E6%B5%81/)
 

@@ -19,13 +19,13 @@ categories: Proxy
 [Discord服务器](https://discord.gg/vNfM9ezTdE) 加discord群
 
 ---
-## Zero Trust
+## Warp/Zero Trust
 
-先补一下之前的坑。首先肯定是尽量用 Masque 协议，Wireguard 流量特征非常明显，一看就知道你在用代理，Masque 是标准的 443 端口，https 流量和平常浏览网页一样，较难识别。但不用担心，使用这两个协议其他人完全看不到你的流量内容，只是如果用Wireguard容易让别人知道你在用代理。
+先补一下之前的坑。首先 Warp 肯定是优先使用 Traffic and DNS (HTTPS)。Zero Trust 尽量用 Masque 协议，Wireguard 流量特征非常明显，一看就知道你在用代理，Masque 是标准的 443 端口，https 流量和平常浏览网页一样，很难识别。但不用担心，使用这两个协议其他人完全看不到你的流量内容，只是如果用Wireguard容易让人知道你在用代理或进行限速。
 
-Mac 和 iOS 的情况我不知道，Windows 禁用 v4 后有时连不上 zero trust 是因为 Cloudflare 的 v6 dns 没连上，这个时候在控制面版设置其他 dns 是没用的，Zero Trust 会强制使用 Warp 网关，我们只能去官网修改设置，在 **Zero Trust 团队和资源 设备 设备配置文件**，可以新建一个单独的配置指定生效的用户，也可以直接修改默认配置。**Maskque 协议**也是在这里改，往下拉一点找到服务模式，改成**不带 DNS 筛选的安全 Web 网关**，英文模式下叫 **Traffic only mode**，不知道为啥中文翻译成这么个东西。最后一定拉到页面最下方保存。改完了以后**再配置系统的 v6 dns** 就能连上了，填个阿里的就行（2400:3200::1 2400:3200:baba::1）。
+Windows 禁用 v4 后有时连不上 zero trust 是卡在了 Performing Happy Eyeballs 这里。目前还没有遇到 Warp 在这里卡住的情况。解决方法还不确定，过一会就好了。
 
-安卓情况不太乐观，Zero Trust 基本用不了，并且安卓设备不能使用 **Traffic only mode**，而且没有 root 的机子没办法单独设置系统层面的 v6 dns。但是没啥关系，大部分免流的场景还是以电脑使用为主。
+CF 官方的 Warp 客户端文档：[Cloudflare WARP client docs](https://developers.cloudflare.com/warp-client/)，但目前还没更新到最新版。
 
 ---
 ## Cloudflare 代理原理

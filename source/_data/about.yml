@@ -95,7 +95,7 @@
     music_tips: 音乐偏好
     music_title: 华语流行、JPOP、古典
     music_bg: https://cdn.ich.cc.cd/img/about-music.webp
-    music_link: https://music.ich.cc.cd
+    music_link: /music
   # reward_list:
     # - name: 名字
       # amount: 数额

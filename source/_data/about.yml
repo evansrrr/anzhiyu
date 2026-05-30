@@ -3,19 +3,19 @@
   avatarImg: https://cdn.ich.cc.cd/img/avatar.webp
   avatarSkills:
     left:
-      - 🤖️ 手机只用安卓
-      - 🥤 可乐只喝可口
-      - 🎹 钢琴主推肖邦
+      - 🍅 西红柿炒鸡蛋只吃咸的
+      - 🍲 豆腐脑必须要浇卤汁的
+      - 🍳 煎鸡蛋必须要七分熟的
     right:
-      - 自己做点饭吃吃 🍕
-      - 没事打会乒乓球 🏓
-      - 有点懒不想打字 💻
-  name: SR
-  description: 是一位二旬老人
+      - 可口就是比百事好喝 🥤
+      - 牛排也得七分熟 🥩
+      - M薯条比KFC好吃 🍟
+  name: Raziore
+  description: R 佬 ？。
   aboutsiteTips:
     tips: 追求
     title1: 源于
-    title2: 热爱而去 感受
+    title2: 热爱而去 感受❤️‍🔥
     word:
       - 学习
       - 生活
@@ -27,11 +27,11 @@
     title: 开启创造力
   careers:
     tips: 生涯
-    title: 无限进步
+    title: 無限進步
     list:
       - desc: 本科
         color: "#357ef5"
-    img: https://cdn.ich.cc.cd/img/about-edu.webp
+    img: 
   statistic:
     link: /archives
     text: 归档
@@ -90,12 +90,12 @@
     like_tips: 关注偏好
     like_title: 数码科技
     like_bg: https://t.alcy.cc/fj
-    like_bottom: 手机、电脑软硬件
+    like_bottom: 手机、电脑软硬件、HiFi
   music:
     music_tips: 音乐偏好
-    music_title: 古典、华语
+    music_title: 华语流行、JPOP、古典
     music_bg: https://cdn.ich.cc.cd/img/about-music.webp
-    music_link: /music
+    music_link: https://music.ich.cc.cd
   # reward_list:
     # - name: 名字
       # amount: 数额

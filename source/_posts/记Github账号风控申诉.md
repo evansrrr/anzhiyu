@@ -3,14 +3,14 @@ author: Raziore
 title: 记Github账号风控申诉
 date: 2026-06-03T15:19:00+08:00
 description: 不要封我号啊，，
-top_img: https://img.ich.cc.cd/file/ichblog/post_img/cover/140156974_p0.webp
-cover: https://img.ich.cc.cd/file/ichblog/post_img/cover/140156974_p0.webp
+top_img: https://img.ich.cc.cd/file/ichblog/post_img/cover/144970207_p0.webp
+cover: https://img.ich.cc.cd/file/ichblog/post_img/cover/144970207_p0.webp
 tags:
   - Github
 categories:
   - Life
 ---
-前几天 Github 账号突然 flagged ，也没有收到相关邮件，只有一封邮件说我的免费 Copilot 计划已结束。VS Code 里确实不能用 Copilot，Github 和 Gist 账号和仓库都显示 404，只有登录以后才能看见。但好在没有动其他东西。于是准备提交工单申诉，申诉之前让我必须验证一个手机号码，只能使用海外手机号，只好找朋友借用了一下，Github 说这只是用来验证真实用户，并没有存储和绑定手机号。在 [GitHub Support Portal](https://support.github.com/contact/account) 写了一个工单，后续收到了工作人员的回件让我提供更多信息，于是又写了一封，最后今天早晨成功解封。以下是工单原文
+前几天 Github 账号突然变成 flagged ，也没有收到相关邮件，只有一封邮件说我的免费 Copilot 计划已结束。VS Code 里确实不能用 Copilot，Github 和 Gist 账号和仓库都显示 404，只有登录以后才能看见。但好在没有动其他东西。于是准备提交工单申诉，申诉之前让我必须验证一个手机号码，只能使用海外手机号，只好找朋友借用了一下，Github 说这只是用来验证真实用户，并没有存储和绑定手机号。在 [GitHub Support Portal](https://support.github.com/contact/account) 写了一个工单，后续收到了工作人员的回件让我提供更多信息，于是又写了一封，最后今天早晨成功解封。以下是工单原文
 
 >**Evans 已评论 4天前**
 >
@@ -69,18 +69,18 @@ categories:
 >**GitHub Support 已评论 13小时前**
 >
 >Hi Evans,  
-   >
-   >
+>
+>
 >Thanks for contacting GitHub Support!  
-   >
+>
 >Sometimes our abuse detecting systems highlight accounts that need to be manually reviewed.  
-   >
+>
 >We've cleared the restrictions from your account, so you have full access to GitHub again.  
-   >
+>
 >Please let me know if you need anything else.  
-   >
-   >
-   >
+>
+>
+>
 >
 >Kind regards,
 >

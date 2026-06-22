@@ -1,6 +1,6 @@
 - class_name: 好物
-  description: 实物装备推荐
-  tip: 跟 SR 一起享受科技带来的乐趣
+  description: 实物装备
+  tip: 跟 Raziore 一起享受科技带来的乐趣
   top_background: https://cdn.ich.cc.cd/img/equipment-bg.webp
   good_things:
     - title: 生产力

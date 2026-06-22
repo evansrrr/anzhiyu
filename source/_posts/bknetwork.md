@@ -1,7 +1,7 @@
 ---
 author: Raziore
 title: 校园网一键免流软件
-date: 2026-05-11T15:22:00+08:00
+date: 2026-06-22T19:03:00+08:00
 description: 早就想做了
 top_img: https://img.ich.cc.cd/file/ichblog/post_img/cover/4B4CD090214E55622913B893B68AFE69.webp
 cover: https://img.ich.cc.cd/file/ichblog/post_img/cover/4B4CD090214E55622913B893B68AFE69.webp

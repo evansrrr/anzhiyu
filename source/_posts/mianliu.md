@@ -19,6 +19,8 @@ categories:
 
 [tg群](https://t.me/ernst_loosen_bot) 或 [discord群](https://discord.gg/vNfM9ezTdE)（如果你没有tg账号）
 
+**[校园网一键免流软件](https://ich.cc.cd/2026/06/22/bknetwork/)**
+
 **排序即推荐顺序**
 
 ---

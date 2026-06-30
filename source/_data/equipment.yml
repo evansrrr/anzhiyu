@@ -46,17 +46,12 @@
           description: 桌面音响，在家不打游戏就用它
           image: https://cdn.ich.cc.cd/img/equipment-hivim200.webp
           link: https://www.bilibili.com/video/BV15t421j7jw
-        - name: Xiaomi Air 4 SE
-          specification: 非卖品
-          description: 听个响
-          image: https://cdn.ich.cc.cd/img/equipment-xiaomiair4se.webp
-          link: https://www.bilibili.com/video/BV1FTDnY4EeW
-        - name: 水月雨 梦回2
+        - name: Moondrop Golden Age 2
           specification: 
           description: 百元TWS中的音质之王
           image: https://img.ich.cc.cd/file/ichblog/img/equipment-goldenage2.webp
           link: https://www.bilibili.com/video/BV1QXHDzvEmp
-        - name: 天使吉米 Force
+        - name: Tanchjim Force
           specification: 
           description: 双动圈旗舰，好听又好看
           image: https://img.ich.cc.cd/file/ichblog/img/equipment-force.webp

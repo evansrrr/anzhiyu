@@ -17,8 +17,6 @@ categories:
 ---
 写了这么多关于校园网免流的文章，一直没有整理到一起，讲讲它们的优缺点。**介绍具体方法的文章链接我贴在对应位置了**。推荐开源流量监测软件[Sniffnet](https://sniffnet.net/)。只提供 Windows10/11 解决方法，本人纯穷鬼没有水果设备，所以不讨论。Linux 也不讨论（你都玩linux了肯定能解决），安卓目前没有解决办法
 
-[tg群](https://t.me/ernst_loosen_bot) 或 [discord群](https://discord.gg/vNfM9ezTdE)（如果你没有tg账号）
-
 **[校园网一键免流软件](https://ich.cc.cd/2026/06/22/bknetwork/)**
 
 **排序即推荐顺序**

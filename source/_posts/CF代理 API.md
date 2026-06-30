@@ -15,14 +15,7 @@ tags:
   - api
 categories:
   - Proxy
-  - Project
 ---
-## [TG 群](https://t.me/ernst_loosen_bot)
-
-来点人啊。。。
-
-[Discord服务器](https://discord.gg/vNfM9ezTdE) 加discord群也行
-
 ## 优选 IP
 
 - **yxip.nmmd.cc.cd**  |  部分表现优秀的 CF 优选域名

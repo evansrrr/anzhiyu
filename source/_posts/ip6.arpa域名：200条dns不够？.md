@@ -11,14 +11,6 @@ tags:
   - 域名
   - ipv6
 ---
-### [TG 群](https://t.me/ernst_loosen_bot)
-
-来点人啊。。。
-
-### [Discord服务器](https://discord.gg/vNfM9ezTdE)
-
-加discord群也行，新建的。。。
-
 ## 正文
 
 前几天在做 proxyip 的时候忽然发现 Cloudflare 给的 200 条 dns 不够用了，于是想起来 ip6.arpa。免费版正常域名的子域名是不能再托管到 cf 的，但 ip6.arpa 域名可以。

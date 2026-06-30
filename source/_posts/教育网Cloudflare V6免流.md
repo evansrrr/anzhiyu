@@ -13,16 +13,9 @@ tags:
   - CERNET2
   - Proxy
   - Cloudflare
-categories: 
-  - Project
+categories:
   - Proxy
 ---
-## TG群组
-
-[**@ernst_loosen_bot**](https://t.me/ernst_loosen_bot)通过此bot加入，答疑解惑，欢迎来玩喵~
-
-[Discord服务器](https://discord.gg/vNfM9ezTdE) 加discord群
-
 ---
 
 之前原生V6免流的方法有一定局限，延迟和速度不太理想。且极少服务器可能屏蔽来自DNS64的ip的请求。用CF的这个方法比较繁琐，并且涉及到代理的一些成分，但速度、延迟和兼容性确实更好。另外玩游戏还是老老实实用流量。

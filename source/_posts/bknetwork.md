@@ -23,8 +23,7 @@ categories:
 
 这里有几个重点：
 
-- [TG Group](https://t.me/ernst_loosen_bot) [Discord Group](https://discord.gg/vNfM9ezTdE) 想加可以加
-- **当前版本（v0.9.7）重大bug：由软件唤起浏览器的操作可能导致cookie全部被清除，强烈建议开启静默启动，并手动在浏览器访问控制台（`http://localhost:13335`）**，该问题将于下个版本修复，在此之前先让我平安度过期末周
+- 当前版本（v0.9.8）修复了之前的bug：由软件唤起浏览器的操作可能导致cookie全部被清除。若还有相似情况可以反馈
 - 建议在关机前关闭免流模式，否则下次开机后可能因为校园网认证失败无法上网，还得关上免流再登录认证
 - 免流前提是连接`USTB-Student` 或 `USTB-V6`，已登录校园网账号，并且电脑可以正常获取 ipv6 地址（[testipv6](https://www.testipv6.cn/)）
 - Warp 免流偶尔连不上，正常现象稍后再试

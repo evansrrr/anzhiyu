@@ -19,6 +19,7 @@ tags:
 - [ZoneABC](https://zoneabc.net/login)
 - [Stackryze](https://domain.stackryze.com/login)
 - [DigitalPlat](https://dash.domain.digitalplat.org/domains)
+- [KataBump](https://dashboard.katabump.com/domains/)
 - [L53](https://customer.l53.net/)
 - [I8](https://nic.i8.al/order?product=1)
 

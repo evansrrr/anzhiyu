@@ -21,9 +21,9 @@ categories: Proxy
 
 先补一下之前的坑。首先 Warp 肯定是优先使用 Traffic and DNS (HTTPS)。Zero Trust 尽量用 Masque 协议，Wireguard 流量特征非常明显，一看就知道你在用代理，Masque 是标准的 443 端口，https 流量和平常浏览网页一样，很难识别。但不用担心，使用这两个协议其他人完全看不到你的流量内容，只是如果用Wireguard容易让人知道你在用代理或进行限速。
 
-Windows 禁用 v4 后有时连不上 zero trust 是卡在了 Performing Happy Eyeballs 这里。目前还没有遇到 Warp 在这里卡住的情况。解决方法还不确定，过一会就好了。
+Windows 禁用 v4 后有时连不上 zero trust 是卡在了 Performing Happy Eyeballs 这里。Warp 在这里也有概率卡住。解决方法还不确定，过一会就好了。
 
-CF 官方的 Warp 客户端文档：[Cloudflare WARP client docs](https://developers.cloudflare.com/warp-client/)，但目前还没更新到最新版。
+CF 官方的 Warp 客户端文档：[Cloudflare WARP client docs](https://developers.cloudflare.com/warp-client/)，但目前还没更新到最新版。[Cloudflare One docs](https://developers.cloudflare.com/cloudflare-one/)倒是挺全的。
 
 ---
 ## Cloudflare 代理原理

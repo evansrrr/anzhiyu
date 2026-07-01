@@ -9,6 +9,7 @@ tags:
   - Net
   - Tech
   - Proxy
+  - Cloudflare
 categories: Proxy
 ---
 从19年cloudflare推出warp到现在，中国大陆的可用性一直在反复横跳。本质上warp是wireguard隧道，流量特征容易识别，所以21年到24年，warp被全面阻断，几乎不可用。从25年开始，得益于新的maskque协议，warp开始渐渐复活。到了26年，新协议的方案被进一步证明了稳定性，现在pc端速度和延迟都比较优秀。

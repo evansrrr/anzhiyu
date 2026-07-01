@@ -3,8 +3,8 @@ author: Raziore
 title: 全网首发：Zero Trust 最新跳过绑卡教程
 date: 2026-07-02T03:50:00+08:00
 description: 惊天大发现
-top_img: https://img.ich.cc.cd/file/ichblog/post_img/cover/110618471_p1.webp
-cover: https://img.ich.cc.cd/file/ichblog/post_img/cover/110618471_p1.webp
+top_img: https://img.ich.cc.cd/file/ichblog/post_img/cover/124114873_p0.webp
+cover: https://img.ich.cc.cd/file/ichblog/post_img/cover/124114873_p0.webp
 tags:
   - Net
   - Tech

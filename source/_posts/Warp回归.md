@@ -23,7 +23,7 @@ categories: Proxy
 </dict>
 ```
 
-保存为 `mdm.xml` 文件，放到 `C:\ProgramData\Cloudflare` 下，重启warp即可。使用zero trust需要在设备管理那里切换。提一句，第一次开通zero trust服务到填写付款信息那里点取消，回到主页就可以绕过付款方式那一步。
+保存为 `mdm.xml` 文件，放到 `C:\ProgramData\Cloudflare` 下，重启warp即可。26.7.2注：现在客户端可以直接修改设置。使用zero trust需要在网页控制台设备管理那里切换。提一句，~~第一次开通zero trust服务到填写付款信息那里点取消，回到主页就可以绕过付款方式那一步。~~ 26.7.2注：**[全网首发：Zero Trust 最新跳过绑卡教程](https://ich.cc.cd/2026/07/01/zerotrustskip/)**，且用且珍惜。
 
 为啥没写手机，因为我自己也没连上😅 （依旧玄学）
 

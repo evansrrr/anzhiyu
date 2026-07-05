@@ -6,9 +6,10 @@ menu:
 
    公益服务CSR:
      音乐: https://music.ich.cc.cd/ || anzhiyu-icon-music
+     SPlayer: https://splayer.ich.cc.cd/ || anzhiyu-icon-play
      TV: https://tv.ich.cc.cd/ || anzhiyu-icon-bilibili
      图床: https://imgs.ich.cc.cd/ || anzhiyu-icon-images
-     ProxyIP检查: https://pip.rvpn.de5.net/ || anzhiyu-icon-circle-check
+     # ProxyIP检查: https://pip.rvpn.de5.net/ || anzhiyu-icon-circle-check
      # 追番页: /bangumis/ || anzhiyu-icon-bilibili
      # 小空调: /air-conditioner/ || anzhiyu-icon-fan
 

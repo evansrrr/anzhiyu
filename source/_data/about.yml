@@ -11,7 +11,7 @@
       - 牛排也得七分熟 🥩
       - M薯条比KFC好吃 🍟
   name: Raziore
-  description: R 佬 ？。
+  description: 慎用2fa
   aboutsiteTips:
     tips: 追求
     title1: 源于
@@ -46,7 +46,7 @@
     selfInfoContentYear: HyperOS 3
     selfInfoTips2: 主力
     selfInfoContent2: Win 11
-    selfInfoTips3: 最喜欢的Linux
+    selfInfoTips3: Linux
     selfInfoContent3: Fedora 43
   personalities:
     author_name: 逻辑学家
@@ -60,7 +60,7 @@
     maxim_bottom: 必有回响。
   buff:
     buff_tips: TG群
-    buff_top: 通过此bot加入：
+    buff_top: 通过bot加入：
     buff_bottom: "@ernst_loosen_bot"
   game:
     game_tips: 爱好游戏
@@ -90,10 +90,10 @@
     like_tips: 关注偏好
     like_title: 数码科技
     like_bg: https://t.alcy.cc/fj
-    like_bottom: 手机、电脑软硬件、HiFi
+    like_bottom: 软硬件、HiFi
   music:
     music_tips: 音乐偏好
-    music_title: 华语流行、JPOP、古典
+    music_title: 流行、古典
     music_bg: https://cdn.ich.cc.cd/img/about-music.webp
     music_link: /music
   # reward_list:

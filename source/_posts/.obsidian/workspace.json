@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "记-北科原生v6免流（进阶）.md",
+                "file": "zerotrustskip.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "记-北科原生v6免流（进阶）"
+              "title": "zerotrustskip"
             }
           }
         ]
@@ -182,16 +182,17 @@
   },
   "active": "34cac09fdd5b0186",
   "lastOpenFiles": [
+    "Untitled.md",
+    "zerotrustskip.md",
+    "记-北科原生v6免流（进阶）.md",
     "北科原生v6免流.md",
     "Warp回归.md",
     "教育网Cloudflare V6免流.md",
-    "记-北科原生v6免流（进阶）.md",
     "Cloudflare代理速成.md",
     "可托管Cloudflare的免费域名.md",
     "Cloudflare代理进阶.md",
     "mianliu.md",
     "记Github账号风控申诉.md",
-    "zerotrustskip.md",
     "bknetwork.md",
     "WebRTC和DNS泄露.md",
     "CF代理 API.md",
@@ -206,7 +207,6 @@
     "Fade of Light_Glitch.md",
     "安卓安装系统风控软件.md",
     "G502强制重置.md",
-    "理想型笔记本.md",
-    "RG_Netlify_Blog.md"
+    "理想型笔记本.md"
   ]
 }

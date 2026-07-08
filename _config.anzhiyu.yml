@@ -452,6 +452,9 @@ footer:
       - link: https://www.netlify.com/
         shields: https://img.shields.io/badge/CDN-Netlify-00C7B7?logo=netlify&logoColor=white
         message: 本站部分使用Netlify CDN为静态资源提供CDN加速
+      - link: https://www.vercel.com/
+        shields: https://img.shields.io/badge/CDN-Vercel-000000?logo=vercel&logoColor=white
+        message: 本站部分使用Vercel CDN为静态资源提供CDN加速
       - link: https://www.jsdelivr.com/
         shields: https://img.shields.io/badge/CDN-jsDelivr-orange?logo=jsdelivr
         message: 本站部分使用jsDelivr CDN为静态资源提供CDN加速
@@ -1202,7 +1205,7 @@ greetingBox:
 
 # 文章顶部ai摘要
 post_head_ai_description:
-  enable: true
+  enable: false
   gptName: AnZhiYu
   mode: local # 默认模式 可选值: tianli/local
   switchBtn: false # 可以配置是否显示切换按钮 以切换tianli/local

@@ -31,12 +31,12 @@ categories:
 
 ## Proxy IP
 
-- **pyip.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/pyip.nmmd.cc.cd) 全球范围，源 IP 来自各知名大佬维护的 proxyip 域名，每 3 小时自动更新一次，去重测试后最多保留 50 个有效 proxyip
-- **hk.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/hk.nmmd.cc.cd) 区域: 🇭🇰 中国香港，上限50个，维护频率: 3 小时
-- **us.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/us.nmmd.cc.cd) 区域: 🇺🇸 美国，上限50个，维护频率: 3 小时
-- **sg.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/sg.nmmd.cc.cd) 区域: 🇸🇬 新加坡，上限50个，维护频率: 3 小时
-- **jp.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/jp.nmmd.cc.cd) 区域: 🇯🇵 日本，上限50个，维护频率: 3 小时
-- **de.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/de.nmmd.cc.cd) 区域: 🇩🇪 德国，上限50个，维护频率: 3 小时
+- **pyip.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/pyip.nmmd.cc.cd) 全球范围，源 IP 来自各知名大佬维护的 proxyip 域名，每日自动更新一次，去重测试后最多保留 50 个有效 proxyip
+- **hk.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/hk.nmmd.cc.cd) 区域: 🇭🇰 中国香港，上限50个，每日更新
+- **us.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/us.nmmd.cc.cd) 区域: 🇺🇸 美国，上限50个，每日更新
+- **sg.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/sg.nmmd.cc.cd) 区域: 🇸🇬 新加坡，上限50个，每日更新
+- **jp.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/jp.nmmd.cc.cd) 区域: 🇯🇵 日本，上限50个，每日更新
+- **de.nmmd.cc.cd**  |  [Check](https://check.proxyip.cmliussss.net/de.nmmd.cc.cd) 区域: 🇩🇪 德国，上限50个，每日更新
 - **nat64.nmmd.cc.cd**  |  不支持检测ipv6 区域: 美 英 荷，19个，NAT64，维护频率: 手动
 
 所有优选 proxyip 均支持 6 个 443 系端口。

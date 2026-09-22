@@ -1087,7 +1087,7 @@ home_top:
     swiper_js: https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.js #swiper js依赖
   banner:
     tips: currently processing on
-    title: BKNetwork
+    title: Free V6
     image: https://img.ich.cc.cd/file/ichblog/img/banner.webp
     link: https://ich.cc.cd/2026/03/28/北科原生v6免流/
 

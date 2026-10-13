@@ -34,3 +34,8 @@ if theme.vercel_analytics
   script(type="module").
     import { inject } from 'https://cdn.jsdelivr.net/npm/@vercel/analytics@1/+esm';
     inject();
+
+if theme.vercel_speed_insights
+  script(type="module").
+    import { injectSpeedInsights } from 'https://cdn.jsdelivr.net/npm/@vercel/speed-insights@1/+esm';
+    injectSpeedInsights();

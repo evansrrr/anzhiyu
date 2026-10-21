@@ -12,6 +12,8 @@ tags:
   - Cloudflare
 categories: Proxy
 ---
+👉 **[校园网免流软件](https://freev6.cc.cd/)**
+
 ---
 
 >免责声明：《中华人民共和国计算机信息网络国际联网管理暂行规定》第六条规定：“计算机信息网络直接进行国际联网，必须使用邮电部国家公用电信网提供的国际出入口信道。任何组织和个人不得自行建立或者使用其他信道进行国际联网。”，第十四条：“违反本规定第六条、第八条和第十条的规定的，由公安机关责令停止联网，给予警告，可以并处15000元以下的罚款；有违法所得的，没收违法所得。”根据法律规定，请勿向他人售卖、传播vpn，否则可能构成违法行为，受到行政处罚并记录。本文既不提倡“翻墙”行为，也不提供工具和源码，仅供讨论、学习网络技术，严禁用于任何形式的非法网络访问，因技术滥用导致的一切后果由使用者自行承担。另Cloudflare服务存在明确的[使用条款限制](https://www.cloudflare.com/zh-cn/terms/)，使用者应自行斟酌。
@@ -46,42 +48,10 @@ categories: Proxy
 
 ⚠️ Cloudflare Workers & Pages每日限量10w请求数，但基本上用不完，而且有人用完之后还可以使用。理论上Cloudflare代理拥有无限流量，并且极难死绝。切记切记不要使用未经混淆的包含代理功能的JS源码部署项目，否则Cloudflare账户基本可以扔了。
 
-（排序针对小白推荐顺序）
+（排序即推荐顺序）
 
 ---
-## 一、甬哥侃侃侃
-
->YouTube：[@ygkkk](https://www.youtube.com/@ygkkk)
->Github：[@yonggekkk](https://github.com/yonggekkk)
-
-要用到的项目：[Github: yonggekkk/Cloudflare-vless-trojan](https://github.com/yonggekkk/Cloudflare-vless-trojan)
-
-通过上面的链接进入此项目Github仓库，点开[Vless_workers_pages](https://github.com/yonggekkk/Cloudflare-vless-trojan/tree/main/Vless_workers_pages)文件夹，点击[worker混淆.js](https://github.com/yonggekkk/Cloudflare-vless-trojan/blob/main/Vless_workers_pages/_worker%E6%B7%B7%E6%B7%86.js)，复制全部代码。此项目不能使用Pages部署方式，登陆Cloudflare后进入仪表板（Dashboard），在左侧找到**计算 -> Workers & Pages -> 创建应用 -> 从Hello World开始**，随便取一个名字，或保持默认，点击部署。部署完成后点击右上角编辑代码，把代码区原本的代码全部删除，将复制的代码粘贴进去。找一个uuid生成器，[比如这个](https://uuidgenerator.dev/)，生成一个随机uuid粘贴到`userID = ""`的双引号中，把原来的值覆盖掉，不要有空格。点击右上角部署，部署完成后回到你的项目页面。
-
-如果你没有托管在Cloudflare上的域名，到这里就算完成了。在右边一栏有你的项目的域名，粘贴到地址栏并在后面加上`/你刚才生成的uuid`获取你的订阅链接。v2ray使用第一个聚合通用订阅链接，clash使用第二个Clash-meta订阅链接。别忘了通过代理订阅更新。
-
-如果你有域名，可以进行接下来的配置。进入你的项目的设置，在域和路由禁用分配的workers.dev域名。点击添加 -> 自定义域名，给你的项目分配一个二级域名（需要填写完整域名）。添加好以后可以通过`自定义域名/uuid`进入订阅页面。这样订阅更新时就不需要通过代理了，并且可以使用TLS加密节点。
-
----
-## 二、Joey blog
-
->YouTube：[@joeyblog](https://www.youtube.com/@joeyblog)
->Github：[@byJoey](https://github.com/byJoey)
-
-项目地址：[Github: byJoey/cfnew](https://github.com/byJoey/cfnew)（界面有点雷霆，之前不是这样的😅）
-
-此项目可以通过Workers或Pages部署，区别在于Workers可以使用xhttp协议，而Pages不行，无关痛痒。Workers部署使用代码文件[少年你相信光吗](https://github.com/byJoey/cfnew/blob/main/%E5%B0%91%E5%B9%B4%E4%BD%A0%E7%9B%B8%E4%BF%A1%E5%85%89%E5%90%97)，方法同上，不再赘述。部署好以后需要配置uuid变量和KV，详细方法见下文Pages部署方式。
-
-Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.zip`。Cloudflare仪表板找到**计算 -> Workers & Pages -> 创建应用**，在页面下方找到`Looking to deploy Pages? Get started`这行小字，点开链接，选择拖入你的文件，为项目取一个名字或保持默认，下一步上传刚刚下载的文件，不需要解压。等待部署完成后点击继续处理项目，进入项目页面，转到设置 -> 变量和机密 -> 添加。变量名称填`u`（注意大小写），值填一个随机生成的uuid，都不要有空格或换行。点击部署。在Cloudflare仪表板找到**存储和数据库 -> Workers KV -> 创建实例**，随便取个名字即可。创建好后返回你的项目设置，找到绑定，添加KV命名空间，变量名称填写大写`C`，然后选择刚刚创建的KV，保存。点击右上角创建部署，再上传一遍刚刚的文件，保存并部署。完成后可通过`项目域名/uuid`访问订阅页面。
-
->⚠️ **Cloudflare更新js运行时后，现在部署需要在项目设置里把运行时兼容日期改成2026-01-20。目前最新版v2ray需使用不带h2的alpn。**
-
-配置方面建议启用Vless和Trojan协议，并启用ECH，保存协议配置。如果不想使用非TLS节点，可以往下拉，找到TLS控制，选择仅TLS节点，保存高级配置（建议启用仅TLS）。然后可以在最上方选择客户端处按需导入订阅。
-
-同样推荐启用自定义域名。
-
----
-## 三、CM
+## 一、CM
 
 >Youtube：[@CMLiussss](https://www.youtube.com/@CMLiussss)
 >Github：[@cmliu](https://github.com/cmliu)
@@ -99,6 +69,38 @@ Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.
 推荐启用自定义域名。
 
 访问`你的域名/admin`输入管理员密码即可登录后台。
+
+---
+## 二、Joey
+
+>YouTube：[@joeyblog](https://www.youtube.com/@joeyblog)
+>Github：[@byJoey](https://github.com/byJoey)
+
+项目地址：[Github: byJoey/cfnew](https://github.com/byJoey/cfnew)（界面有点雷霆，之前不是这样的😅）
+
+此项目可以通过Workers或Pages部署，区别在于Workers可以使用xhttp协议，而Pages不行，无关痛痒。Workers部署使用代码文件[少年你相信光吗](https://github.com/byJoey/cfnew/blob/main/%E5%B0%91%E5%B9%B4%E4%BD%A0%E7%9B%B8%E4%BF%A1%E5%85%89%E5%90%97)，方法同上，不再赘述。部署好以后需要配置uuid变量和KV，详细方法见下文Pages部署方式。
+
+Pages部署方式请在Github项目页面右侧Releases下载最新版本`Pages.zip`。Cloudflare仪表板找到**计算 -> Workers & Pages -> 创建应用**，在页面下方找到`Looking to deploy Pages? Get started`这行小字，点开链接，选择拖入你的文件，为项目取一个名字或保持默认，下一步上传刚刚下载的文件，不需要解压。等待部署完成后点击继续处理项目，进入项目页面，转到设置 -> 变量和机密 -> 添加。变量名称填`u`（注意大小写），值填一个随机生成的uuid，都不要有空格或换行。点击部署。在Cloudflare仪表板找到**存储和数据库 -> Workers KV -> 创建实例**，随便取个名字即可。创建好后返回你的项目设置，找到绑定，添加KV命名空间，变量名称填写大写`C`，然后选择刚刚创建的KV，保存。点击右上角创建部署，再上传一遍刚刚的文件，保存并部署。完成后可通过`项目域名/uuid`访问订阅页面。
+
+>⚠️ **Cloudflare更新js运行时后，现在部署需要在项目设置里把运行时兼容日期改成2026-01-20。目前最新版v2ray需使用不带h2的alpn。**
+
+配置方面建议启用Vless和Trojan协议，并启用ECH，保存协议配置。如果不想使用非TLS节点，可以往下拉，找到TLS控制，选择仅TLS节点，保存高级配置（建议启用仅TLS）。然后可以在最上方选择客户端处按需导入订阅。
+
+同样推荐启用自定义域名。
+
+---
+## 三、甬哥
+
+>YouTube：[@ygkkk](https://www.youtube.com/@ygkkk)
+>Github：[@yonggekkk](https://github.com/yonggekkk)
+
+项目：[Github: yonggekkk/Cloudflare-vless-trojan](https://github.com/yonggekkk/Cloudflare-vless-trojan)
+
+通过上面的链接进入此项目Github仓库，点开[Vless_workers_pages](https://github.com/yonggekkk/Cloudflare-vless-trojan/tree/main/Vless_workers_pages)文件夹，点击[worker混淆.js](https://github.com/yonggekkk/Cloudflare-vless-trojan/blob/main/Vless_workers_pages/_worker%E6%B7%B7%E6%B7%86.js)，复制全部代码。此项目不能使用Pages部署方式，登陆Cloudflare后进入仪表板（Dashboard），在左侧找到**计算 -> Workers & Pages -> 创建应用 -> 从Hello World开始**，随便取一个名字，或保持默认，点击部署。部署完成后点击右上角编辑代码，把代码区原本的代码全部删除，将复制的代码粘贴进去。找一个uuid生成器，[比如这个](https://uuidgenerator.dev/)，生成一个随机uuid粘贴到`userID = ""`的双引号中，把原来的值覆盖掉，不要有空格。点击右上角部署，部署完成后回到你的项目页面。
+
+如果你没有托管在Cloudflare上的域名，到这里就算完成了。在右边一栏有你的项目的域名，粘贴到地址栏并在后面加上`/你刚才生成的uuid`获取你的订阅链接。v2ray使用第一个聚合通用订阅链接，clash使用第二个Clash-meta订阅链接。别忘了通过代理订阅更新。
+
+如果你有域名，可以进行接下来的配置。进入你的项目的设置，在域和路由禁用分配的workers.dev域名。点击添加 -> 自定义域名，给你的项目分配一个二级域名（需要填写完整域名）。添加好以后可以通过`自定义域名/uuid`进入订阅页面。这样订阅更新时就不需要通过代理了，并且可以使用TLS加密节点。
 
 ---
 ## 四、BPB

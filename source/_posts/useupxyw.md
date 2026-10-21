@@ -11,6 +11,8 @@ tags:
   - 校园网
 categories: Project
 ---
+👉 **[校园网免流软件](https://freev6.cc.cd/)**
+
 在过去的18天里，我用掉了13T的校园网流量。这是一个非常保守的数字，校园网v6计量方式是有问题的，实际上消耗了大约20T。
 
 ![Screenshot 2026-07-19 012226.webp](https://img.ich.cc.cd/file/ichblog/post_img/useupxyw/Screenshot_2026-07-19_012226.webp)

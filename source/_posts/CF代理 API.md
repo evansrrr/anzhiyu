@@ -16,6 +16,8 @@ tags:
 categories:
   - Proxy
 ---
+👉 **[校园网免流软件](https://freev6.cc.cd/)**
+
 ## 优选 IP
 
 - **yxip.nmmd.cc.cd**  |  部分表现优秀的 CF 优选域名

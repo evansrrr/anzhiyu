@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "北科原生v6免流.md",
+                "file": "xywproxy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "北科原生v6免流"
+              "title": "xywproxy"
             }
           }
         ]
@@ -182,6 +182,9 @@
   },
   "active": "93404e153da2897d",
   "lastOpenFiles": [
+    "freev6.md",
+    "xywproxy.md",
+    "北科原生v6免流.md",
     "记-北科原生v6免流（进阶）.md",
     "教育网Cloudflare V6免流.md",
     "Cloudflare代理速成.md",
@@ -194,12 +197,9 @@
     "mianliu.md",
     "bknetwork.md",
     "useupxyw.md",
-    "xywproxy.md",
-    "freev6.md",
     "zerotrustskip.md",
     "WebRTC和DNS泄露.md",
     "记Github账号风控申诉.md",
-    "北科原生v6免流.md",
     "Warp回归.md",
     "软件大宝荐（通讯）.md",
     "listen2026.md",

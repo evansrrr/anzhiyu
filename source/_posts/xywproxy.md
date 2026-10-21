@@ -38,7 +38,7 @@ FreeV6 使用的是 Warp 节点，免费版 Warp 不支持更换节点地区，�
 关于免费的二级域名，可以看这：[可托管Cloudflare的免费域名](https://ich.cc.cd/2026/03/31/%E5%8F%AF%E6%89%98%E7%AE%A1Cloudflare%E7%9A%84%E5%85%8D%E8%B4%B9%E5%9F%9F%E5%90%8D/)
 
 <details>
-<summary><code><strong>Pages 部署教程</strong></code></summary>
+<summary><code>Pages 部署教程</code></summary>
 
 1. 部署 CF Pages：
    - 下载 [main.zip](https://github.com/cmliu/edgetunnel/archive/refs/heads/main.zip) 文件
@@ -61,7 +61,7 @@ FreeV6 使用的是 Warp 节点，免费版 Warp 不支持更换节点地区，�
 </details>
 
 <details>
-<summary><code><strong>Workers 部署教程</strong></code></summary>
+<summary><code>Workers 部署教程</code></summary>
 
 1. 部署 CF Worker：
    - 在侧栏选择 `计算` > `Workers 和 Pages` ，点击 `创建应用程序` > `从 Hello World! 开始`，为你的项目取名后点击 `部署`

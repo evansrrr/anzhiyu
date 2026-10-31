@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "xywproxy.md",
+                "file": "北科原生v6免流.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "xywproxy"
+              "title": "北科原生v6免流"
             }
           }
         ]
@@ -182,8 +182,8 @@
   },
   "active": "93404e153da2897d",
   "lastOpenFiles": [
-    "freev6.md",
     "xywproxy.md",
+    "freev6.md",
     "北科原生v6免流.md",
     "记-北科原生v6免流（进阶）.md",
     "教育网Cloudflare V6免流.md",

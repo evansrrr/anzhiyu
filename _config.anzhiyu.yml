@@ -5,9 +5,9 @@ menu:
      标签: /tags/ || anzhiyu-icon-tags
 
    公益服务CSR:
-     音乐: https://music.ich.cc.cd/ || anzhiyu-icon-music
+     Folia: https://folia.ich.cc.cd/ || anzhiyu-icon-music
      SPlayer: https://splayer.ich.cc.cd/ || anzhiyu-icon-play
-     TV: https://tv.ich.cc.cd/ || anzhiyu-icon-bilibili
+     KVideo: https://tv.ich.cc.cd/ || anzhiyu-icon-bilibili
      图床: https://imgs.ich.cc.cd/ || anzhiyu-icon-images
      # ProxyIP检查: https://pip.rvpn.de5.net/ || anzhiyu-icon-circle-check
      # 追番页: /bangumis/ || anzhiyu-icon-bilibili
@@ -829,7 +829,7 @@ aside:
     category: true
   card_author:
     enable: true
-    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">随便<b style="color:#fff">写写</b>吧，都是我<b style="color:#fff">闲的折腾的东�����</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">对开源项目���探索一直支撑我到今天，算下来应该有不少<b style="color:#fff">好玩的</b>吧。</div> # 默认为站点描述
+    description: <div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">随便<b style="color:#fff">写写</b>，都是<b style="color:#fff">闲的没事折腾的东西</b>。</div><div style="line-height:1.38;margin:0.6rem 0;text-align:justify;color:rgba(255, 255, 255, 0.8);">对开源项目的探索一直支撑我到今天，算下来应该有不少<b style="color:#fff">好玩的</b>吧。</div> # 默认为站点描述
     name_link: /
 
   card_announcement:

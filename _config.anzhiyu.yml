@@ -1272,6 +1272,8 @@ inject:
   head:
     # 自定义css
     # - <link rel="stylesheet" href="/css/custom.css" media="defer" onload="this.media='all'">
+    # Umami 统计
+    - <script defer src="https://cloud.umami.is/script.js" data-website-id="53b68da2-2695-4872-bec3-847803cdece5"></script>
 
   bottom:
     # 自定义js
